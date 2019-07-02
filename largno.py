@@ -1,0 +1,10 @@
+i,j,k=map(int,input().split())
+if(i>j):
+   if(i>j):
+       print(i)
+else:
+   print(k)
+elif(j>k):
+     print(j)
+else:
+   print(k)
