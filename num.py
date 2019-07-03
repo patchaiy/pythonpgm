@@ -1,6 +1,6 @@
-i=int(input("enter the num:"))
+n=int(input())
 count=0
-while(i>0):
-   count=count+1
-   i=i//10
-print("num of digit in num:",count)
+while n>0:
+    count+=1
+    n=n//10
+print(count)
