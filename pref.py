@@ -3,9 +3,9 @@ def longest(st1,st2):
             return st1
         else:
             return longest(st1[0:len(st1)-1],st2)
-a = int(input())
-n= []
-for _ in range(0,a):
-    n.append(input())
-n.sort()
-print(longest(n[0],n[a-1]))
+j = int(input())
+p= []
+for _ in range(0,j):
+    p.append(input())
+p.sort()
+print(longest(p[0],p[j-1]))
