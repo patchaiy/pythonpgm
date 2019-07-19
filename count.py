@@ -1,3 +1,3 @@
-a1=int(input())
-b1=a1
-print(b1)
+ai=int(input())
+bi=ai
+print(bi)
